@@ -1,3 +1,7 @@
 transformers
 torch
 gradio
+datasets
+scikit-learn
+matplotlib
+accelerate
