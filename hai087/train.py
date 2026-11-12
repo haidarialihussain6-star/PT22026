@@ -1,3 +1,11 @@
+"""Fine-tune the SST-2 DistilBERT model on 2,000 IMDB training reviews.
+
+Usage:
+    python train.py
+
+Saves the model to models/finetuned-imdb (not uploaded to GitHub) and the
+training details to eval_results/training_info.json.
+"""
 import json
 import os
 import time

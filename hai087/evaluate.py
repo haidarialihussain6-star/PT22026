@@ -1,3 +1,12 @@
+"""Evaluate a sentiment model on 500 random IMDB test reviews.
+
+Usage:
+    python evaluate.py                              # baseline model
+    python evaluate.py models/finetuned-imdb finetuned
+
+Saves accuracy, precision, recall, F1 and the confusion matrix to the
+eval_results/ folder (JSON file and PNG image).
+"""
 import json
 import os
 import sys
