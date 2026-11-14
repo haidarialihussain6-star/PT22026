@@ -141,6 +141,16 @@ margin of error), but it shifted the balance: the fine-tuned model finds more
 positive reviews (higher recall) and makes more false positives (lower
 precision). The images are in `eval_results/`.
 
+## Screenshots
+
+| Baseline, positive | Baseline, negative |
+|---|---|
+| ![Baseline positive](screenshots/app-baseline-positive.png) | ![Baseline negative](screenshots/app-baseline-negative.png) |
+
+| Baseline, neutral text (forced to negative) | Fine-tuned model, positive |
+|---|---|
+| ![Baseline neutral](screenshots/app-baseline-neutral.png) | ![Fine-tuned positive](screenshots/app-finetuned-positive.png) |
+
 ## Limitations
 
 - Only two classes: neutral text is forced into positive or negative
